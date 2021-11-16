@@ -6,31 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bookmarks</title>
     <link rel="stylesheet" href="./stylebookmarks.css">
+    <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+  ></script>
 </head>
 <body>
-    <header>
-        <h1>Bookmarks</h1>
+    <header class="header">
+        <h1 class="header__title">Bookmarks</h1>
     </header>
-    <main class="container">
-        <div class="card1">
-            <h2>Question1:</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea,
-              cupiditate.
-            </p>
-            <details>
-              <summary>Answer</summary>
-              Lorem ipsum dolor sit amet.
-            </details>
-          </div>
-    </main>
-    <footer>
-      <ul>
-        <li><a href="">Home</a></li>
-        <li><a href="">Bookmarks</a></li>
-        <li><a href="">Create</a></li>
-        <li><a href="">Profile</a></li>
-      </ul>
+    
+    <footer class="footer">
+      <nav>
+        <ul class="nav">
+          <li class="nav__item">
+            <a class="nav__link nav__link--active" href="./index.html"><ion-icon name="home-outline"></ion-icon></a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="./bookmarks.html"
+              ><ion-icon name="bookmark-outline"></ion-icon
+            ></a>
+          </li>
+          <li class="nav__item" >
+            <a class="nav__link" href="./create.html"
+              ><ion-icon name="add-circle-outline"></ion-icon
+            ></a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="./profile.html"
+              ><ion-icon name="person-outline"></ion-icon
+            ></a>
+          </li>
+        </ul>
+      </nav>
     </footer>
     
 </body>

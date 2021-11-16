@@ -1,6 +1,28 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+ion-icon {
+  font-size: 43px;
+  color: #eeeeee;
+}
+
+.footer {
+  width: 100%;
+
+  background-color: #222831;
+  bottom: 0px;
+  position: fixed;
+}
+
+.nav {
+  height: 12vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.nav__item {
+  list-style: none;
+}

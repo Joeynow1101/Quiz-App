@@ -6,43 +6,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Profile</title>
     <link rel="stylesheet" href="./styleprofile.css">
+    <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+  ></script>
   </head>
   <body>
-    <header>
-      <h1>Profile</h1>
+    <header class="header">
+      <h1 class="header__title">Profile</h1>
     </header>
-    <main>
-      <div class="box1">
-        <img src="./img/FB_IMG_1565294651670.jpg" alt="" width="100px" />
-        <h2>John Doe</h2>
+    <main class="main">
+      <div class="main__aboutme">
+        <img class="main__aboutme__img" src="./img/FB_IMG_1565294651670.jpg" alt="" width="100px" />
+        <h2 class="main__aboutme__title" >John Doe</h2>
       </div>
-      <div class="aboutme">
+      <div class="main__aboutme__text">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque magnam
           mollitia voluptas quis, explicabo temporibus corrupti omnis amet!
           Reiciendis praesentium reprehenderit doloremque
         </p>
       </div>
-      <div class="skills">
-        <h2>Skills</h2>
+      <div class="main__skills">
+        <h2 class="main__skills__title">Skills</h2>
         <ul>
           <li>wedwf</li>
           <li>fwefwf</li>
           <li>wefef</li>
           <li>wefg</li>
         </ul>
-        <button>Logout</button>
+        <button class="button">Logout</button>
       </div>
     </main>
-    <footer>
-        <nav>
-          <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./bookmarks.html">Bookmarks</a></li>
-            <li><a href="./create.html">Create</a></li>
-            <li><a href="./profile.html">Profile</a></li>
-          </ul>
-        </nav>
-      </footer>
+    <footer class="footer">
+      <nav>
+        <ul class="nav">
+          <li class="nav__item">
+            <a class="nav__link nav__link--active" href="./index.html"><ion-icon name="home-outline"></ion-icon></a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="./bookmarks.html"
+              ><ion-icon name="bookmark-outline"></ion-icon
+            ></a>
+          </li>
+          <li class="nav__item" >
+            <a class="nav__link" href="./create.html"
+              ><ion-icon name="add-circle-outline"></ion-icon
+            ></a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="./profile.html"
+              ><ion-icon name="person-outline"></ion-icon
+            ></a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
   </body>
 </html>
