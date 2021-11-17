@@ -4,16 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./stylehome.css" />
+    <link rel="stylesheet" href="./CSS/styles.css" />
     <title>Quiz-App</title>
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -24,15 +17,23 @@
   <body>
     <header class="header">
       <div class="header__logo">
-        <img class="header__logo__img" src="./img/quiz.svg" alt="" width="50px" />
+        <img
+          class="header__logo__img"
+          src="./img/quiz.svg"
+          alt=""
+          width="50px"
+        />
         <h1 class="header__logo__h1">App</h1>
       </div>
     </header>
     <main class="main">
       <div class="card">
-        <div class="card__bookmark">
-          <ion-icon class="card__icon" name="bookmark"></ion-icon>
-        </div>
+        <img
+          class="card__bookmark"
+          src="./img/bookmark.png"
+          alt=""
+          width="50px"
+        />
         <h2 class="card__title">Question:</h2>
         <p class="card__question">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea,
@@ -50,9 +51,13 @@
         </div>
       </div>
       <div class="card">
-        <div class="card__bookmark">
-          <ion-icon class="card__icon" name="bookmark"></ion-icon>
-        </div>
+        <img
+          class="card__bookmark"
+          src="./img/bookmark.png"
+          alt=""
+          width="50px"
+        />
+
         <h2 class="card__title">Question:</h2>
         <p class="card__question">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea,
@@ -70,9 +75,12 @@
         </div>
       </div>
       <div class="card">
-        <div class="card__bookmark">
-          <ion-icon class="card__icon" name="bookmark"></ion-icon>
-        </div>
+        <img
+          class="card__bookmark"
+          src="./img/bookmark.png"
+          alt=""
+          width="50px"
+        />
         <h2 class="card__title">Question:</h2>
         <p class="card__question">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea,
@@ -90,29 +98,12 @@
         </div>
       </div>
       <div class="card">
-        <div class="card__bookmark">
-          <ion-icon class="card__icon" name="bookmark"></ion-icon>
-        </div>
-        <h2 class="card__title">Question:</h2>
-        <p class="card__question">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea,
-          cupiditate.
-        </p>
-        <details class="card__details">
-          <summary class="card__details__answer">Answer</summary>
-          Lorem ipsum dolor sit amet.
-        </details>
-        <div class="button__box">
-          <button class="button">A</button>
-          <button class="button">B</button>
-          <button class="button">C</button>
-          <button class="button">D</button>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card__bookmark">
-          <ion-icon class="card__icon" name="bookmark"></ion-icon>
-        </div>
+        <img
+          class="card__bookmark"
+          src="./img/bookmark.png"
+          alt=""
+          width="50px"
+        />
         <h2 class="card__title">Question:</h2>
         <p class="card__question">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea,
@@ -134,22 +125,37 @@
       <nav>
         <ul class="nav">
           <li class="nav__item">
-            <a class="nav__link nav__link--active" href="./index.html"><ion-icon name="home-outline"></ion-icon></a>
+            <a class="nav__link nav__link--active" href="./index.html"
+              ><img
+                class="nav__img--active"
+                src="./img/home.png"
+                alt=""
+                width="50px"
+                fill="white"
+            /></a>
           </li>
           <li class="nav__item">
             <a class="nav__link" href="./bookmarks.html"
-              ><ion-icon name="bookmark-outline"></ion-icon
-            ></a>
-          </li>
-          <li class="nav__item" >
-            <a class="nav__link" href="./create.html"
-              ><ion-icon name="add-circle-outline"></ion-icon
-            ></a>
+              ><img
+                class="nav__img"
+                src="./img/bookmark.png"
+                alt=""
+                width="50px"
+            /></a>
           </li>
           <li class="nav__item">
-            <a class="nav__link" href="./profile.html"
-              ><ion-icon name="person-outline"></ion-icon
-            ></a>
+            <a class="nav__link" href="./create.html"
+              ><img
+                class="nav__img"
+                src="./img/new-page.png"
+                alt=""
+                width="50px"
+            /></a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="./profile.html">
+              <img class="nav__img" src="./img/user.png" alt="" width="50px"
+            /></a>
           </li>
         </ul>
       </nav>
