@@ -2,7 +2,7 @@
   text-align: center;
   margin: 25px;
   width: 90%;
-padding: 15px;
+  padding: 15px;
   border-radius: 20px;
   background-color: var(--secondary);
   -webkit-border-radius: 20px;
@@ -15,20 +15,18 @@ padding: 15px;
   position: absolute;
   right: -2px;
   top: -20px;
-  filter: invert(52%) sepia(76%) saturate(2296%) hue-rotate(349deg)
-    brightness(98%) contrast(104%);
+  filter: invert(99%) sepia(0%) saturate(165%) hue-rotate(53deg)  brightness(70%) contrast(87%);
+  -webkit-filter: invert(99%) sepia(0%) saturate(165%) hue-rotate(53deg)  brightness(70%) contrast(87%);
+}
+
+.card__bookmark:hover {
+  transform: translateY(4px);
+  filter: invert(64%) sepia(99%) saturate(3847%) hue-rotate(351deg)
+    brightness(99%) contrast(100%);
 }
 
 .card__question {
   margin: 10px;
 }
 
-.main__question {
-  color: var(--secondary);
-}
-.main__answer {
-  color: var(--secondary);
-}
-.main__tags {
-  color: var(--secondary);
-}
+

@@ -9,7 +9,34 @@ textarea {
   padding: 12px;
   font-size: 15px;
   font-family: "poppins";
-  border-color: var(--primary);
+  border-color:var(--primary-light);
   margin: 20px;
   margin-top: 10px;
+  border-width: 2px;
+
+}
+
+
+.main__question.main__tags{
+    font-size: 1.5rem ;
+}
+
+.section__text{
+  margin: 1rem;
+    padding: 1.5rem;
+    border-radius: 20px;
+    text-align: center;
+    
+    background-color: var(--secondary);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary-light);
+}
+.main__question .main__answer .main__tags{
+  color: var(--primary);
+  
 }
