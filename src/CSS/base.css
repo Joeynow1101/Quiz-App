@@ -1,8 +1,8 @@
 :root {
-  --primary:  #393E46;
-  --primary-light:  #222831;
-  --secondary: #EEEEEE;
-  --secondary-light: #FD7014;
+  --primary: #393e46;
+  --primary-light: #222831;
+  --secondary: #eeeeee;
+  --secondary-light: #fd7014;
   --white: #ecf8f8;
   --black: #211103;
 
@@ -38,6 +38,16 @@ h2,
 h3,
 p {
   margin: 0;
+  
+ 
+}
+body{
+  background-color: var(--primary-light);
+}
+
+main{
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 body {
@@ -56,34 +66,4 @@ ul[class] li,
 ol[class] li {
   list-style: none;
   padding: 0;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
-/* Typography */
-
-.text-serif {
-  font-family: var(--ff-serif);
-  font-weight: 200;
-}
-
-.page-title {
-  font-size: var(--fs-900);
-}
-
-.section-title {
-  font-size: var(--fs-500);
-  color: var(--secondary);
-}
-
-/* general layout */
-
-.container {
-  max-width: 40rem;
-  padding: 2rem;
-  margin: 0 auto;
 }

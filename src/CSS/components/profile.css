@@ -1,0 +1,29 @@
+.main__profile {
+    margin: 15px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: var(--secondary);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.main__aboutme__img {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin: 20px;
+}
+.main__aboutme__title {
+  color: var(--primary-light);
+  margin:10px
+}
+.main__aboutme__text {
+    margin: 15px;
+  color: var(--primary-light);
+}
+.main__skills{
+    color: var(--primary-light);
+}

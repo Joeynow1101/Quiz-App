@@ -1,11 +1,8 @@
 .card {
-  display: flex;
-  flex-direction: column;
   text-align: center;
-  margin: 20px;
+  margin: 25px;
   width: 90%;
-
-  top: 85px;
+padding: 15px;
   border-radius: 20px;
   background-color: var(--secondary);
   -webkit-border-radius: 20px;
@@ -24,4 +21,14 @@
 
 .card__question {
   margin: 10px;
+}
+
+.main__question {
+  color: var(--secondary);
+}
+.main__answer {
+  color: var(--secondary);
+}
+.main__tags {
+  color: var(--secondary);
 }

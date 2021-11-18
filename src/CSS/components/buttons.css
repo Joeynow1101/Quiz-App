@@ -1,0 +1,14 @@
+.button__box{
+
+}
+.button{
+    font-size: 15px;
+    font-family: "poppins";
+    color: var(--primary-light);
+    border: none;
+    background: var(--secondary-light);
+    font-weight: 600;
+    width: 140px;
+    height: 40px;
+    margin:5px;
+}
