@@ -21,6 +21,7 @@
 .main__aboutme__title {
   color: var(--primary-light);
   margin:0.5rem;
+  margin-top: 1rem;
 }
 .main__aboutme__text {
     margin: 0.5rem;
@@ -29,6 +30,7 @@
 
 .main__skills__title{
   margin: 0.5rem;
+  margin-top: 2rem;
     color: var(--primary-light);
     
 }
