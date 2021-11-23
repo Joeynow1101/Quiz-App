@@ -36,7 +36,11 @@ textarea {
     font-weight: 700;
     color: var(--primary-light);
 }
-.main__question .main__answer .main__tags{
+.main__question .main__answer {
   color: var(--primary);
   
+}
+
+.main__tags__textarea{
+height: 20px;
 }

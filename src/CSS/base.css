@@ -46,8 +46,8 @@ body{
 }
 
 main{
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin-top: 140px;
+  margin-bottom: 110px;
 }
 
 body {
@@ -55,15 +55,9 @@ body {
   font-size: 1.25rem; /* var(--fs-400) */
 }
 
-ul[class],
-ol[class] {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
 
 ul[class] li,
 ol[class] li {
   list-style: none;
-  padding: 0;
+  
 }
