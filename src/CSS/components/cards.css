@@ -17,9 +17,14 @@
   top: -20px;
   filter: invert(99%) sepia(0%) saturate(165%) hue-rotate(53deg)  brightness(70%) contrast(87%);
   -webkit-filter: invert(99%) sepia(0%) saturate(165%) hue-rotate(53deg)  brightness(70%) contrast(87%);
+
+  
 }
 
-.card__bookmark:hover {
+.hover {
+  position: absolute;
+  right: -2px;
+  top: -20px;
   transform: translateY(4px);
   filter: invert(64%) sepia(99%) saturate(3847%) hue-rotate(351deg)
     brightness(99%) contrast(100%);
