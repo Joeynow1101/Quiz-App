@@ -24,3 +24,7 @@ const bookmarks = document.querySelectorAll(".card__bookmark");
           bookmark.classList.toggle("hover");
         });
       });
+
+
+      
+      

@@ -1,8 +1,8 @@
 .card {
   text-align: center;
-  margin: 1.5rem;
-  width: 90%;
-  padding: 15px;
+  margin: 1rem;
+  width: 85%;
+  padding: 0.4rem;
   border-radius: 20px;
   background-color: var(--secondary);
   -webkit-border-radius: 20px;
@@ -11,14 +11,23 @@
   -o-border-radius: 20px;
   position: relative;
 }
+
+.card:hover {
+  transform: scale(1.08);
+  -webkit-transform: scale(1.08);
+  -moz-transform: scale(1.08);
+  -ms-transform: scale(1.08);
+  -o-transform: scale(1.08);
+}
+
 .card__bookmark {
   position: absolute;
   right: -2px;
   top: -20px;
-  filter: invert(99%) sepia(0%) saturate(165%) hue-rotate(53deg)  brightness(70%) contrast(87%);
-  -webkit-filter: invert(99%) sepia(0%) saturate(165%) hue-rotate(53deg)  brightness(70%) contrast(87%);
-
-  
+  filter: invert(99%) sepia(0%) saturate(165%) hue-rotate(53deg) brightness(70%)
+    contrast(87%);
+  -webkit-filter: invert(99%) sepia(0%) saturate(165%) hue-rotate(53deg)
+    brightness(70%) contrast(87%);
 }
 
 .hover {
@@ -34,4 +43,10 @@
   margin: 10px;
 }
 
-
+.card_zoom {
+  transform: scale(1.07);
+  -webkit-transform: scale(1.07);
+  -moz-transform: scale(1.07);
+  -ms-transform: scale(1.07);
+  -o-transform: scale(1.07);
+}

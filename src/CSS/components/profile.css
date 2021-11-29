@@ -1,6 +1,6 @@
 .main__profile {
-    margin: 1rem;
-    padding: 2rem;
+    margin: 0rem 1rem 1rem 1rem;
+    padding: 1rem;
     border-radius: 20px;
     text-align: center;
     background-color: var(--secondary);
@@ -8,6 +8,7 @@
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
+    width: 85%;
 }
 .main__aboutme__img {
   border-radius: 50%;
